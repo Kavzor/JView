@@ -13,11 +13,11 @@ Pre-usage
 Example
 ```java
   //Instantiating a javafx project with a source folder views in the root directory of the build path
-	@Override
-	public void start(Stage primaryStage) {
-		View.getConfiguration().setMainStage(primaryStage);
-		View.getConfiguration().setViewSourceFolder("/views");
-		View.switchTo("Launcher.fxml");
+  @Override
+  public void start(Stage primaryStage) {
+    View.getConfiguration().setMainStage(primaryStage);
+    View.getConfiguration().setViewSourceFolder("/views");
+    View.switchTo("Launcher.fxml");
   }
   
   //Refreshing current active View
